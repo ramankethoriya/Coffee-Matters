@@ -1,0 +1,1146 @@
+@font-face {
+    font-family: copper;
+    src: url(./fonts/CooperLtBTLight.ttf);
+}
+
+@font-face {
+    font-family: colona;
+    src: url(./fonts/COLONNA.TTF);
+}
+
+@font-face {
+    font-family: inkfree;
+    src: url(./fonts/Inkfree.ttf);
+}
+
+@font-face {
+    font-family: elephant;
+    src: url(./fonts/ELEPHNT.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#pg-1 {
+    width: 100%;
+    height: 80%;
+    background-image: url(./images/pexels-afta-putta-gunawan-702251.jpg);
+    background-size: cover;
+    background-position: -15%;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background-image: url(./images/1.jpg);
+        background-position: -15%;
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(./images/2.jpg);
+        background-position: -15%;
+        background-size: cover;
+
+    }
+
+    75% {
+        background-image: url(./images/3.jpg);
+        background-position: -15%;
+        background-size: cover;
+
+    }
+
+    100% {
+        background-image: url(./images/4.jpg);
+        background-position: -15%;
+        background-size: cover;
+
+    }
+
+}
+
+#nav {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    display: flex;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.384);
+}
+.ri-align-justify{
+    color: white;
+    position: absolute;
+    left: 93%;
+    font-size: 18px;
+    top: 4.3%;
+}
+
+#del h1 {
+    position: absolute;
+    font-family: colona;
+    font-weight: 100;
+    left: 5%;
+    top: 3%;
+    color: #fff;
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+#del h1:hover {
+    transform: rotate(-4deg);
+}
+
+#nav #list {
+    display: flex;
+    position: absolute;
+    top: 4%;
+    left: 35%;
+    gap: 55px;
+    font-family: Gilroy;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: ease 1.5s;
+}
+
+.ri-shopping-bag-fill {
+    position: absolute;
+    left: 90%;
+    font-size: 20px;
+    top: 4%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ri-menu-line {
+    position: absolute;
+    left: 94%;
+    font-size: 20px;
+    top: 4%;
+    color: #fff;
+    cursor: pointer;
+}
+
+#nav #list:hover {
+    transform: rotate(-2deg);
+}
+
+#maintext {
+    position: relative;
+    left: 52%;
+    top: 40%;
+    width: 25%;
+    height: 25%;
+    color: #fff;
+    text-shadow: 0 0 10px gold;
+    transform: translate(-50%, -50%);
+
+}
+
+#maintext h1 {
+    position: absolute;
+    font-size: 750%;
+    font-weight: 100;
+    transform: rotate(-10deg);
+    line-height: 135px;
+}
+
+.matters {
+    position: absolute;
+    top: 54%;
+}
+
+#maintext h6 {
+    position: absolute;
+    font-size: 170%;
+    font-weight: 100;
+    transform: rotate(-10deg);
+    top: 136%;
+    left: 48%;
+}
+
+#catle {
+    position: relative;
+    top: 50%;
+    left: 40%;
+    z-index: 999999;
+    transition: ease 1s;
+}
+
+#catle:hover {
+    transform: rotate(-10deg);
+}
+
+
+#pg-2 {
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.welcome {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+    font-weight: 100;
+}
+
+.jam {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.pancake {
+    position: absolute;
+    top: 25%;
+    left: 75%;
+}
+
+.btm-pan {
+    position: absolute;
+    top: -62%;
+    left: 35%;
+}
+
+.para-top {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 20px;
+    color: #424040;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.tool {
+    position: absolute;
+    top: 62%;
+    left: 10%;
+    color: black;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+    font-weight: 100;
+}
+
+.para-left {
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 20px;
+    color: #424040;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.para-right {
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 20px;
+    color: #424040;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.food {
+    position: absolute;
+    top: 62%;
+    left: 75%;
+    color: black;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+    font-weight: 100;
+}
+
+#pg-3 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#box {
+    position: relative;
+    overflow: hidden;
+    height: 80%;
+    width: 84%;
+    background-color: #fff;
+    top: -40%;
+    left: 8%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.477);
+}
+
+.berry {
+    position: relative;
+    top: 60%;
+    left: 21%;
+}
+
+#box .boy {
+    position: absolute;
+    left: 85%;
+}
+
+#box .cake {
+    position: absolute;
+    left: -8%;
+
+}
+
+#box .bunch {
+    position: absolute;
+    top: 25%;
+    font-size: 300%;
+    left: 28%;
+    font-weight: 100;
+    z-index: 99999;
+}
+
+#box .happyhr {
+    position: absolute;
+    top: 25%;
+    font-size: 300%;
+    left: 58%;
+    font-weight: 100;
+    z-index: 99999;
+}
+
+#box .today {
+    position: absolute;
+    top: 40%;
+    font-size: 130%;
+    font-family: inkfree;
+    color: rgba(207, 102, 81, 0.799);
+    z-index: 999999;
+    left: 27%;
+}
+
+#box .start {
+    position: absolute;
+    top: 40%;
+    font-size: 130%;
+    font-family: inkfree;
+    color: rgba(207, 102, 81, 0.799);
+    z-index: 999999;
+    left: 61%;
+}
+
+#box .right-side-para {
+    position: absolute;
+    top: 48%;
+    text-align: center;
+    left: 53%;
+    font-size: 105%;
+    font-weight: 100;
+}
+
+
+#box .cashe {
+    position: absolute;
+    top: 48%;
+    cursor: pointer;
+    left: 17%;
+    font-size: 110%;
+    font-weight: 100;
+
+}
+
+.cashe:hover {
+    color: rgba(207, 102, 81, 0.799);
+}
+
+#box .para-cashew {
+    position: absolute;
+    top: 58%;
+    font-weight: 100;
+    font-size: 80%;
+    left: 17%;
+}
+
+#box .optic {
+    position: absolute;
+    top: 68%;
+    left: 17%;
+    cursor: pointer;
+    font-size: 110%;
+    font-weight: 100;
+}
+
+.optic:hover {
+    color: rgba(207, 102, 81, 0.799);
+}
+
+#box .cofee-line {
+    position: absolute;
+    top: 78%;
+    left: 17%;
+    font-size: 110%;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.cofee-line:hover {
+    color: rgba(207, 102, 81, 0.799);
+}
+
+#box .hot-line {
+    position: absolute;
+    top: 88%;
+    font-weight: 100;
+    font-size: 80%;
+    left: 17%;
+}
+
+#box .num {
+    position: absolute;
+    top: 73%;
+    font-size: 180%;
+    font-weight: 100;
+    left: 60%;
+}
+
+#box .min {
+    position: absolute;
+    top: 80%;
+    left: 62%;
+    font-weight: 100;
+}
+
+#box .tea {
+    position: absolute;
+    top: 8%;
+    left: 60%;
+}
+
+#box .bread {
+    position: absolute;
+    top: 3%;
+    left: 26%;
+}
+
+#box .one1 {
+    position: absolute;
+    top: 48%;
+    font-size: 120%;
+    color: rgba(207, 102, 81, 0.799);
+    left: 44%;
+}
+
+#box .two2 {
+    position: absolute;
+    top: 68%;
+    font-size: 120%;
+    color: rgba(207, 102, 81, 0.799);
+    left: 44%;
+
+}
+
+#box .three3 {
+    position: absolute;
+    top: 78%;
+    font-size: 120%;
+    color: rgba(207, 102, 81, 0.799);
+    left: 44%;
+
+}
+
+#row {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(48, 48, 48, 0.313);
+    left: 50%;
+}
+
+button {
+    position: relative;
+    top: 87%;
+    left: 60%;
+    padding: 0.8em 1.8em;
+    border: 1px solid rgb(193, 83, 61);
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: Gilroy;
+    transition: .3s;
+    z-index: 1;
+    border-radius: 60px;
+    color: #000000;
+}
+
+button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: rgb(193, 83, 61);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+button:hover::before {
+    width: 105%;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#pg-4 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.we-offer {
+    position: relative;
+    left: 40%;
+    top: 0%;
+    font-size: 450%;
+    font-weight: 100;
+}
+
+.todyspecial {
+    position: absolute;
+    top: 15%;
+    font-size: 130%;
+    font-family: inkfree;
+    color: rgba(207, 102, 81, 0.799);
+    z-index: 999999;
+    left: 43%;
+
+}
+
+#group img {
+    margin-left: -6%;
+    margin-top: 4%;
+    transition: ease .5s;
+}
+
+#group img:hover {
+    border-radius: 25%;
+    cursor: pointer;
+
+
+}
+
+.one {
+    position: absolute;
+    top: 20%;
+    left: 16.6%;
+    border-radius: 50%;
+}
+
+.two {
+    position: absolute;
+    top: 20%;
+    left: 33.2%;
+    border-radius: 50%;
+}
+
+.three {
+    position: absolute;
+    top: 20%;
+    border-radius: 50%;
+    left: 49.8%;
+}
+
+.four {
+    position: absolute;
+    top: 20%;
+    border-radius: 50%;
+    left: 66.4%;
+}
+
+.five {
+    position: absolute;
+    top: 20%;
+    border-radius: 50%;
+    left: 83%;
+}
+
+#group .ct {
+    position: absolute;
+    top: 60%;
+    font-weight: 100;
+    font-size: 180%;
+    left: 12%;
+    cursor: pointer;
+}
+
+.ct:hover {
+    color: rgba(207, 102, 81, 0.799);
+}
+
+#group .bs {
+    position: absolute;
+    cursor: pointer;
+    top: 60%;
+    font-weight: 100;
+    font-size: 180%;
+    left: 27%;
+}
+
+.bs:hover {
+    color: rgba(207, 102, 81, 0.799);
+}
+
+#group .lm {
+    position: absolute;
+    cursor: pointer;
+    top: 60%;
+    font-weight: 100;
+    font-size: 180%;
+    left: 46%;
+}
+
+.lm:hover {
+    color: rgba(207, 102, 81, 0.799);
+}
+
+#group .ws {
+    position: absolute;
+    cursor: pointer;
+    top: 60%;
+    font-weight: 100;
+    font-size: 180%;
+    left: 62%;
+}
+
+.ws:hover {
+    color: rgba(207, 102, 81, 0.799);
+}
+
+#group .cf {
+    position: absolute;
+    top: 60%;
+    left: 79%;
+    font-weight: 100;
+    font-size: 180%;
+    cursor: pointer;
+}
+
+.cf:hover {
+    color: rgba(207, 102, 81, 0.799);
+}
+
+#group .p1 {
+    position: absolute;
+    text-align: center;
+    top: 66%;
+    color: rgba(69, 69, 69, 0.827);
+    font-weight: 100;
+    left: 11%;
+    font-size: 110%;
+}
+
+#group .p2 {
+    position: absolute;
+    text-align: center;
+    top: 66%;
+    color: rgba(69, 69, 69, 0.827);
+    font-weight: 100;
+    left: 28%;
+    font-size: 110%;
+}
+
+#group .p3 {
+    position: absolute;
+    text-align: center;
+    top: 66%;
+    color: rgba(69, 69, 69, 0.827);
+    font-weight: 100;
+    left: 44.5%;
+    font-size: 110%;
+}
+
+#group .p4 {
+    position: absolute;
+    text-align: center;
+    top: 66%;
+    color: rgba(69, 69, 69, 0.827);
+    font-weight: 100;
+    left: 62%;
+    font-size: 110%;
+}
+
+#group .p5 {
+    position: absolute;
+    text-align: center;
+    top: 66%;
+    color: rgba(69, 69, 69, 0.827);
+    font-weight: 100;
+    left: 78%;
+    font-size: 110%;
+}
+#pg-5 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#slider {
+    position: relative;
+    width: 200px;
+    height: 200px;  
+    cursor: pointer;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+#slider span {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+}
+
+#slider span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 2s;
+}
+
+#slider span:hover img {
+    transform: translateY(-50px) scale(1.2);
+}
+
+#pg-5-half {
+    position: relative;
+    height: 1vh;
+    width: 100%;
+}
+
+#pg-5-half h2 {
+    position: absolute;
+    left: 45.5%;
+    top: -8586%;
+    font-family: inkfree;
+    font-size: 20px;
+    color: rgba(183, 79, 79, 0.879);
+}
+
+#pg-5-half h5 {
+    position: absolute;
+    left: 45%;
+    top: -9999%;
+    font-size: 75px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+#pg-5-half img {
+    position: absolute;
+    top: -5595%;
+    left: 78%;
+}
+
+#location {
+    top: -2120%;
+    left: 45%;
+    position: relative;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}
+
+#location h1 {
+    color: rgb(39, 39, 39);
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+#location h1 span {
+    position: absolute;
+    left: 10%;
+    top: 54%;
+    font-size: 18px;
+    color: #000000aa;
+    font-family: Gilroy;
+}
+
+
+#pg-6 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.cup-6 {
+    position: absolute;
+    left: 6%;
+    top: -5%;
+}
+
+.logo-6 {
+    position: absolute;
+    top: 12%;
+    left: 31%;
+}
+
+.buddha {
+    position: absolute;
+    top: 30%;
+    left: 33.5%;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.how {
+    position: absolute;
+    top: 40%;
+    left: 33.5%;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+#pg-6 h6 {
+    position: absolute;
+    top: 57%;
+    left: 33.5%;
+    font-size: 17px;
+    font-family: Gilroy;
+    font-weight: 100;
+    line-height: 26px;
+}
+
+.masala {
+    position: absolute;
+    top: 80%;
+    left: 22%;
+}
+
+#honey {
+    position: relative;
+    top: 17%;
+    left: 78%;
+    width: 19.5%;
+    height: 32%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#honey img {
+    position: absolute;
+    transition: ease 1s;
+}
+
+#honey img:hover {
+    scale: 1.1;
+}
+
+#honey button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    border: 2px solid #fff;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+#honey-box {
+    position: relative;
+    height: 27%;
+    width: 19.5%;
+    left: 78%;
+    top: 13%;
+    border-radius: 10px;
+    border: 1px dotted rgba(0, 0, 0, 0.418);
+}
+
+#honey-box h2 {
+    margin-left: 33%;
+    margin-top: 15%;
+    font-size: 13px;
+    font-weight: 100;
+    color: #000000c5;
+}
+
+#honey-box h1 {
+    margin-left: 20%;
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: 100;
+    color: #000000e8;
+}
+
+#honey-box h3 {
+    margin-left: 43%;
+    margin-top: 7%;
+    font-size: 20px;
+    font-weight: 100;
+    color: #000000e8;
+}
+
+
+#pg-8 {
+    position: relative;
+    width: 100%;
+    height: 67%;
+    top: 40%;
+    background-color: #23282F;
+    color: #fff;
+}
+
+#abt {
+    position: absolute;
+    width: 22%;
+    height: 100%;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#abt h1 {
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 100;
+}
+
+#abt h5 {
+    width: 100%;
+    position: absolute;
+    top: 51%;
+    left: 60%;
+    color: rgba(255, 255, 255, 0.865);
+    transform: translate(-50%, -50%);
+    font-family: Gilroy;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#abt button {
+    position: absolute;
+    top: 59%;
+    left: 31.5%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.881);
+}
+
+#pg-8>h1 {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    color: #CB9252;
+    font-size: 68px;
+    font-weight: 100;
+}
+
+#pg-8>h1 span {
+    position: absolute;
+    left: 32%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    color: #CB9252;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#pg-8>h2 {
+    position: absolute;
+    left: 50%;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    color: #fcfcfce6;
+    font-size: 28px;
+    font-weight: 100;
+    font-weight: 100;
+}
+
+#social {
+    position: relative;
+    top: 75%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    color: #cb7052f2;
+    font-size: 21px;
+    letter-spacing: 6px;
+}
+
+
+/* ------------------------------------------------------------ */
+
+.input-group {
+    position: relative;
+    top: 67%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    min-height: 45px;
+    max-width: 250px;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.192);
+    border-radius: 50px 0 0 50px;
+    background-color: transparent;
+}
+
+.button--submit {
+    min-height: 45px;
+    min-width: 140px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    border: 1px solid #e56439;
+    background-color: transparent;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+    background-color: #CB7152;
+}
+
+.input:focus,
+.input:focus-visible {
+    border-color: #c29484;
+    outline: none;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h1 {
+    position: absolute;
+    top: 52%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-weight: 100;
+}
+
+#contact h3 {
+    position: absolute;
+    top: 67%;
+    left: 80.2%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.874);
+    font-weight: 100;
+    font-size: 14px;
+    font-family: Gilroy;
+    line-height: 25px;
+}
+
+#contact h4 {
+    position: absolute;
+    top: 80%;
+    left: 80.5%;
+    transform: translate(-50%, -50%);
+    color: #CB7152;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: Gilroy;
+    line-height: 25px;
+}
+
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 100%;
+    color: #CB7152;
+    text-align: center;
+    font-family: Gilroy;
+}
+
+#footer h1 {
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+#footer span {
+    color: #000000ab;
+}
+
+#footer h2 {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
